@@ -1,0 +1,134 @@
+
+body{
+  background-color: #DFFFFD;
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.content{
+  text-decoration: underline;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Cinzel', serif; */
+  font-family: 'Merienda', cursive;
+}
+h1{
+    font-family: 'Merienda', cursive;
+
+}
+p{
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+.top{
+
+  position: relative;
+  top:100px;
+  margin: auto;
+}
+.mount{
+  margin: auto;
+}
+.top-cloud{
+  position: relative;
+  left:250px;
+}
+.bottom-cloud{
+    position: absolute;
+}
+
+.wallburst{
+  height: 400px;
+  width: 400px;
+  /* position: absolute; */
+  position: relative;
+  right: 700px;
+  top:320px;
+  display: inline-block;
+  /* float: left; */
+}
+.profile{
+  height: 400px;
+  width: 800px;
+  margin-left: 400px;
+  margin-top: 100px;
+  position: relative;
+  left:200px;
+  bottom: 350px;
+}
+.table{
+  position: relative;
+  left:200px;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 300px;
+}
+.tablehead{
+  background-color: #42C2FF;
+    border-collapse: collapse;
+  color:white;
+  font-weight: bold;
+  text-align: left;
+  padding: 12px 20px;
+}
+tr{
+  text-align: left;
+    border-collapse: collapse;
+  padding: 12px 20px;
+}
+.skillpic{
+  height: 450px;
+  width:500px;
+  position: relative;
+  display: inline-block;
+  left:700px;
+  top:420px;
+}
+.skill-row{
+  height: 400px;
+  width:800px;
+  margin-right: 400px;
+  position: relative;
+  bottom: 500px;
+}
+.contentpic{
+  height: 600px;
+  width:600px;
+  position: relative;
+  display: inline-block;
+  left:700px;
+  top:400px;
+}
+.content-row{
+  height: 400px;
+  width:800px;
+  margin-right: 400px;
+  position: relative;
+  bottom: 500px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.thanks{
+  height: 300px;
+  width:300px;
+  position:relative;
+  display: inline-block;
+  right:150px;
+
+
+}
+.bottom-container{
+  position: relative;
+  text-align: center;
+  right:100px;
+  bottom:200px;
+  margin-right: 100px;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+}
