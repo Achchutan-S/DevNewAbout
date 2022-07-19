@@ -3,9 +3,19 @@ body{
   background-color: #DFFFFD;
   margin: 0;
   text-align: center;
+   align-items: flex-start;
   font-family: sans-serif;
+  size:75%
 }
-
+.c1{
+  font-size: 430%;
+}
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
 .content{
   text-decoration: underline;
   /* font-family: 'Montserrat', sans-serif; */
@@ -20,6 +30,9 @@ p{
     font-size: 20px;
     font-family: 'Cinzel', serif;
   /* font-family: 'Ubuntu', sans-serif; */
+}
+.middle-container{
+  text-align: center;
 }
 .top{
 
@@ -43,11 +56,16 @@ p{
   width: 400px;
   /* position: absolute; */
   position: relative;
+  align-items: center;
   right: 700px;
   top:320px;
   display: inline-block;
   /* float: left; */
 }
+.desc{
+  font-size: 200%;
+}
+
 .profile{
   height: 400px;
   width: 800px;
@@ -83,15 +101,17 @@ tr{
   width:500px;
   position: relative;
   display: inline-block;
-  left:700px;
-  top:420px;
+  left:600px;
+  top:400px;
 }
 .skill-row{
   height: 400px;
-  width:800px;
-  margin-right: 400px;
+  width:600px;
+  padding: 30px;
+  text-align: center;
   position: relative;
-  bottom: 500px;
+
+  bottom: 600px;
 }
 .contentpic{
   height: 600px;
@@ -104,7 +124,7 @@ tr{
 .content-row{
   height: 400px;
   width:800px;
-  margin-right: 400px;
+  left:70px;
   position: relative;
   bottom: 500px;
 }
@@ -119,16 +139,61 @@ h3{
   width:300px;
   position:relative;
   display: inline-block;
-  right:50px;
+  right:300px;
 
 
 }
 .bottom-container{
+  background-color: #053742;
+  font-size: 200%;
+  color: white;
+  width: 2000px;
   position: relative;
   text-align: center;
   right:100px;
-  bottom:200px;
+  bottom:2px;
   margin-right: 100px;
   font-size: 30px;
   font-family: 'Cinzel', serif;
+}
+.contact-me{
+  width:40%;
+  margin: 40px auto 40px;
+}
+.footer-link{
+  color: white;
+  font-size: 2em;
+  position: relative;
+  bottom: 130px;
+  right: 200px;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 6px 6px 4px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.paratext{
+  font-size: 150%;
+  font-weight: bold;
+}
+.last{
+  font-weight: bolder;
+  font-size: 150%;
 }
